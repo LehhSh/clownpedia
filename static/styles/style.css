@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Content  */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: orange;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0.5px;
+  border-left: 0;
+  border-style: solid;
+  border-color: grey;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0.5px;
+  border-left: 0;
+  border-style: solid;
+  border-color: grey;
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+.material-banner {
+  padding-bottom: 20px;
+  font-size: 13.5px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.list-container {
+  display: inline-block;
+  border: solid;
+  border-width: 0.5px;
+  padding: 7px;
+  margin-bottom: 10px;
+  background-color: #f8f9fa;
+}
+
+.list-container > p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.list-container > ol > li {
+  padding: 5px;
+  list-style: none;
+}
+
+.list-container > ol > li > ol > li {
+  padding-top: 10px;
+  margin-left: 10px;
+  list-style: none;
+}
+
+.font-courier {
+  border: 1px solid #eaecf0;
+  background-color: #f8f9fa;
+  padding: 2px;
+  font-family: monospace;
+}
+
+.right-column {
+  float: right;
+  padding: 5px;
+  border-color: darkgrey;
+  border-style: solid;
+  border-width: 00.5px;
+  max-width: 280px;
+  text-align: center;
+  margin-left: 10px;
+  background-color: #f8f9fa;
+}
+
+.right-column > table {
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.right-column > p {
+  display: block;
+  background-color: #cfe3ff;
+  margin: 3px;
+  align-items: center;
+}
+
+.media-link {
+  float: right;
+  background-color: #cfe3ff;
+  font-size: 12px;
+}
+
+.media-link > p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 44px;
+  padding-right: 58px;
+}
+
+.content-container {
+  margin-left: 155.125px;
+  padding: 16px;
+}
+
+/* Left navigation panel */
+
+.left-column {
+  float: left;
+  padding: 5px;
+  border: none;
+  border-width: 00.5px;
+  max-width: 160px;
+  text-align: center;
+  padding-left: 10px;
+  background-color: #f8f9fa;
+  border-right-color: rgb(169, 216, 255);
+  border-bottom: 0;
+  border-top: 0;
+  border-left: 0;
+  border-style: solid;
+  margin-left: 0;
+  margin-right: 0px;
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 100%;
+}
+
+.left-column > ul {
+  text-align: left;
+  list-style: none;
+  padding-left: 10px;
+  padding-bottom: 25px;
+}
+
+.left-column > ul > li {
+  padding-bottom: 4px;
+}
+
+.lang-btn {
+  padding: 10px;
+  border-width: 0.5px;
+  border-color: grey;
+  border-style: solid;
+  margin-right: 30px;
+  margin-left: 30px;
+  background-color: rgb(253, 253, 253);
+}
+
+.lang-btn:hover {
+  cursor: pointer;
+  text-decoration-line: none;
+}
+
+.lang-btn:active {
+  cursor: pointer;
+  background-color: lightgrey;
+  text-decoration-line: none;
+}
+
+.cor-links {
+  float: right;
+  margin-top: 10px;
+}
+
+.wiki-logo {
+  max-width: 160px;
+  height: 160px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.list-name {
+  color: grey;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px;
+  border-left: 0;
+  border-bottom-color: rgb(199, 199, 199);
+  border-style: solid;
+  margin-bottom: 5px;
+}
+
+/* Upper navigation panel */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eef5ff;
+}
+
+.nav-container > nav > ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container > nav > ul > a > li {
+  display: block;
+  padding: 10px;
+  border-style: solid;
+  border-left: 0;
+  border-width: 0.5px;
+  border-color: rgb(169, 216, 255);
+}
+
+.nav-container > nav > ul > a > .read-botton {
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgb(169, 216, 255);
+}
+
+@media (max-width: 690px) {
+  .nav-container {
+    flex-direction: column-reverse;
+  }
+}
